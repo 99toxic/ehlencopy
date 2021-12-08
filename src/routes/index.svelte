@@ -1,10 +1,10 @@
 <script lang="ts">
 	import HomeHeader from '../components/HomeHeader.svelte';
-	let title = 'Home';
+	let title = 'Digital Marketing Agency';
 </script>
 
 <svelte:head>
-	<title>Ehlen Analytics | {title}</title>
+	<title>{title} | Ehlen Analytics</title>
 </svelte:head>
 
 <HomeHeader />

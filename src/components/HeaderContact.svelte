@@ -19,24 +19,43 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
+		width: 100%;
+		padding: 20px;
 	}
 
 	.header-contact__icons {
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
 	}
 
-	.header-contact__icons a {
+	.header-contact__icons i {
+		font-size: 1.5rem;
+		color: var(--color-tertiary);
 		margin-right: 1rem;
+		background-color: var(--color-transparent-background);
+		padding: 1rem;
+		border-radius: 50%;
 	}
 
-	.header-contact__text {
-		display: flex;
-		align-items: center;
+	.header-contact__icons i:hover {
+		background-color: var(--color-primary);
+		color: var(--color-white);
 	}
 
 	.header-contact__text a {
+		font-size: 1.5rem;
+		color: var(--color-tertiary);
+		text-decoration: none;
+	}
+
+	.header-contact__text a:not(:last-child) {
+		margin-right: 1rem;
+	}
+
+	.header-contact__text i {
+		font-size: 1.5rem;
 		margin-right: 1rem;
 	}
 </style>
