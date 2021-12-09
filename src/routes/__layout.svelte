@@ -24,7 +24,9 @@
 		--color-black: #000;
 		--color-black-2: #252a2c;
 
-		--color-transparent-background: rgba(255, 255, 255, 0.13);
+		--color-transparent-white: rgba(255, 255, 255, 0.13);
+		--color-transparent-black: rgba(0, 0, 0, 0.7);
+
 		--color-gradient-primary: linear-gradient(to right, #1b56e9 0%, #1aad92 100%);
 
 		--font-body: 'Raleway', sans-serif;

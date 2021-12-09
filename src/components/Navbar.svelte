@@ -21,7 +21,7 @@
 	.navbar {
 		display: flex;
 		justify-content: flex-end;
-		margin-bottom: 10rem;
+		margin-bottom: 5rem;
 		padding: 0px;
 	}
 

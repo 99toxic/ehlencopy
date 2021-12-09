@@ -1,6 +1,7 @@
 <div class="header-buttons">
-	<a class="header-buttons__call" href="#"><i class="fas fa-phone-volume" />Call Now</a>
-	<a class="header-buttons__contact" href="#">Contact Us</a>
+	<a class="header-buttons__call" href="tel:8284923347"><i class="fas fa-phone-volume" />Call Now</a
+	>
+	<a class="header-buttons__contact" href="/contact">Contact Us</a>
 </div>
 
 <style>
@@ -8,7 +9,7 @@
 		display: flex;
 		justify-content: space-evenly;
 		align-items: center;
-		padding: 2rem;
+		padding: 1rem;
 		width: 50%;
 		margin: 0 auto 10rem auto;
 	}
@@ -19,7 +20,7 @@
 		color: var(--color-tertiary);
 		margin-right: 1rem;
 		text-decoration: none;
-		padding: 2rem 6rem;
+		padding: 0.8rem 3rem;
 		border-radius: 5rem;
 	}
 

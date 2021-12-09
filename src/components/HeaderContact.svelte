@@ -19,9 +19,9 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin-bottom: 2rem;
+		margin-bottom: 0.5rem;
 		width: 100%;
-		padding: 20px;
+		padding: 1rem;
 	}
 
 	.header-contact__icons {

@@ -1,8 +1,7 @@
 <script>
+	import BgVideo from './BgVideo.svelte';
 	import HeaderContact from './HeaderContact.svelte';
 	import Navbar from './Navbar.svelte';
-
-	import BgVideo from './BgVideo.svelte';
 
 	import HeaderButtons from './HeaderButtons.svelte';
 	import HomeHeaderCTA from './HomeHeaderCTA.svelte';
@@ -19,15 +18,15 @@
 
 <style>
 	.header {
-		background-color: rgba(0, 0, 0, 0.7);
+		background-color: var(--color-transparent-black);
 		color: var(--color-dark);
 		padding: 1.5rem;
-		height: 100%;
+		height: 100vh;
 		text-align: center;
 		position: relative;
 	}
 	.header-logo {
-		width: 40%;
+		width: 33%;
 		margin: 0 auto;
 		padding: 0;
 	}
