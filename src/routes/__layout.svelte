@@ -45,7 +45,7 @@
 
 	/* Typography */
 	:global(body) {
-		font-family: var(--font-primary);
+		font-family: var(--font-body);
 		font-size: 1.6rem;
 		line-height: 1.5;
 		color: var(--color-grey);
@@ -53,6 +53,7 @@
 	}
 
 	:global(h2) {
+		font-family: var(--font-heading);
 		color: var(--color-dark);
 		font-size: 5rem;
 		font-weight: normal;

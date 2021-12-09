@@ -1,11 +1,11 @@
-<div class="fullscreen-bg">
-	<video class="fullscreen-bg__video" loop muted autoplay>
+<div>
+	<video loop muted autoplay>
 		<source src="../static/ehlen-analytics.mp4" type="video/mp4" />
 	</video>
 </div>
 
 <style>
-	.fullscreen-bg {
+	div {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -15,7 +15,7 @@
 		overflow: hidden;
 	}
 
-	.fullscreen-bg__video {
+	video {
 		min-width: 100vw;
 		min-height: 100vh;
 		width: auto;

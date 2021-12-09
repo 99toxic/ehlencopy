@@ -6,16 +6,17 @@
 	import HeaderButtons from '$lib/HeaderButtons.svelte';
 </script>
 
-<header class="header">
+<header>
 	<BgVideo />
 	<HeaderContact />
 	<Navbar />
-	<img class="header-logo" src="../static/images/logo-2.png" alt="logo" />
+	<img src="../static/images/logo-2.png" alt="logo" />
+	<h2>Dominate your market</h2>
 	<HeaderButtons />
 </header>
 
 <style>
-	.header {
+	header {
 		background-color: var(--color-transparent-black);
 		color: var(--color-dark);
 		padding: 2rem 5rem;
@@ -23,10 +24,15 @@
 		text-align: center;
 		position: relative;
 	}
-	.header-logo {
-		width: 35%;
+	img {
+		width: 585px;
 		margin: 0 auto;
 		margin-top: 8%;
 		display: block;
+	}
+	h2 {
+		color: var(--color-white);
+		margin-top: -4rem;
+		margin-bottom: 3rem;
 	}
 </style>

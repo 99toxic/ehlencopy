@@ -9,17 +9,17 @@
 		display: flex;
 		justify-content: space-evenly;
 		align-items: center;
-		width: 60%;
+		width: 40%;
 		margin: 0 auto;
 	}
 
 	.header-buttons__call,
 	.header-buttons__contact {
-		font-size: 2rem;
+		font-size: 2.5rem;
 		color: var(--color-tertiary);
 		margin-right: 1rem;
 		text-decoration: none;
-		padding: 1rem 4rem;
+		padding: 1.5rem 4rem;
 		border-radius: 5rem;
 	}
 
