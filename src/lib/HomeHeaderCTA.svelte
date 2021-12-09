@@ -34,9 +34,11 @@
 		justify-content: center;
 		align-items: center;
 		padding: 20px;
-		margin-top: -8rem;
+		margin-top: -10rem;
 		font-size: 2rem;
 		color: var(--color-tertiary);
+		z-index: 1;
+		position: relative;
 	}
 
 	.header-cta__one,

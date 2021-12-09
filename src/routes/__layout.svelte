@@ -1,5 +1,15 @@
+<script>
+	// import HomeHeader from '$lib/HomeHeader.svelte';
+	// import MainHeader from '$lib/MainHeader.svelte';
+</script>
+
 <slot />
 
+<!-- {#if }
+	<HomeHeader />
+{:else}
+	<MainHeader />
+{/if} -->
 <style>
 	/* CSS RESET */
 	:global(*),
@@ -42,19 +52,19 @@
 		background-color: var(--color-quaternary);
 	}
 
-	h2 {
+	:global(h2) {
 		color: var(--color-dark);
 		font-size: 5rem;
 		font-weight: normal;
 		line-height: 1.2;
 	}
 
-	p {
+	:global(p) {
 		font-size: 1.6rem;
 		font-weight: normal;
 	}
 
-	hr {
+	:global(hr) {
 		width: 5rem;
 		border: 2px solid var(--color-primary);
 		margin: 2rem auto;

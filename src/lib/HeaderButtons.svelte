@@ -9,9 +9,8 @@
 		display: flex;
 		justify-content: space-evenly;
 		align-items: center;
-		padding: 1rem;
-		width: 50%;
-		margin: 0 auto 10rem auto;
+		width: 60%;
+		margin: 0 auto;
 	}
 
 	.header-buttons__call,
@@ -20,7 +19,7 @@
 		color: var(--color-tertiary);
 		margin-right: 1rem;
 		text-decoration: none;
-		padding: 0.8rem 3rem;
+		padding: 1rem 4rem;
 		border-radius: 5rem;
 	}
 
