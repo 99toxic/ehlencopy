@@ -33,7 +33,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;
-		padding: 20rem;
+		padding: 0 20rem;
 	}
 	.wrap {
 		display: grid;

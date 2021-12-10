@@ -6,6 +6,9 @@
 	import CTAOne from '$lib/CTAOne.svelte';
 	import ProjectSection from '$lib/ProjectSection.svelte';
 	import WhyUsSection from '$lib/WhyUsSection.svelte';
+	import TeamSection from '$lib/TeamSection.svelte';
+	import CtaTwo from '$lib/CTATwo.svelte';
+	import Testimonials from '$lib/Testimonials.svelte';
 
 	let heading = 'Our digital marketing services';
 	let subHeading =
@@ -41,3 +44,6 @@
 <CTAOne />
 <ProjectSection />
 <WhyUsSection />
+<TeamSection />
+<CtaTwo />
+<Testimonials />
