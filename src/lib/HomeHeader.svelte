@@ -10,9 +10,11 @@
 	<BgVideo />
 	<HeaderContact />
 	<Navbar />
-	<img src="../static/images/logo-2.png" alt="logo" />
-	<h2>Dominate your market</h2>
-	<HeaderButtons />
+	<div class="logo">
+		<img src="../static/images/logo-2.png" alt="logo" />
+		<h2>Dominate your market</h2>
+		<HeaderButtons />
+	</div>
 </header>
 
 <style>
@@ -24,15 +26,23 @@
 		text-align: center;
 		position: relative;
 	}
+
+	.logo {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+	}
 	img {
-		width: 585px;
 		margin: 0 auto;
-		margin-top: 8%;
+		width: 30%;
 		display: block;
 	}
 	h2 {
 		color: var(--color-white);
-		margin-top: -4rem;
-		margin-bottom: 3rem;
+		margin-top: -2rem;
+		margin-bottom: 2rem;
+		font-size: 2.5rem;
 	}
 </style>

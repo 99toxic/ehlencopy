@@ -15,12 +15,12 @@
 
 	.header-buttons__call,
 	.header-buttons__contact {
-		font-size: 2.5rem;
+		font-size: 2rem;
 		color: var(--color-tertiary);
-		margin-right: 1rem;
 		text-decoration: none;
-		padding: 1.5rem 4rem;
+		padding: 1rem 2rem;
 		border-radius: 5rem;
+		margin-right: 2rem;
 	}
 
 	.header-buttons__call {
@@ -34,7 +34,7 @@
 	}
 
 	.header-buttons__call i {
-		margin-right: 1rem;
+		margin-right: 0.5rem;
 		font-size: 2rem;
 	}
 
