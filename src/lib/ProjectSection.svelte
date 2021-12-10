@@ -39,7 +39,6 @@
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 4rem;
-		margin-top: 5rem;
 	}
 	.item {
 		width: 100%;

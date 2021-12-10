@@ -18,7 +18,7 @@
 	.cta {
 		background: url('./static/images/main-cta-1-bg.jpg') no-repeat center;
 		background-size: cover;
-		padding: 20rem 10rem;
+		padding: 15rem 10rem;
 		margin-bottom: 0;
 	}
 
@@ -52,6 +52,7 @@
 		padding: 2rem 6rem;
 		border-radius: 5rem;
 		color: var(--color-tertiary);
+		margin-right: 2rem;
 	}
 
 	.button-2 {
