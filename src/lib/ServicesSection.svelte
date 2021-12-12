@@ -115,7 +115,7 @@
 	.main__services {
 		display: flex;
 		margin-top: 5rem;
-		justify-content: space-around;
+		justify-content: center;
 	}
 
 	.main__services__image {
@@ -129,7 +129,7 @@
 	.main__services__wrap {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		width: 60%;
+		width: 20%;
 	}
 
 	.main__services__item {
