@@ -11,9 +11,9 @@
 
 <style>
 	.heading {
+		background: url('../images/main-heading-bg.jpg') no-repeat;
 		padding-top: 8rem;
 		text-align: center;
-		background: url('../images/main-heading-bg.jpg') no-repeat;
 	}
 
 	h2 {

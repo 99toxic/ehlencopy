@@ -115,11 +115,11 @@
 	.main__services {
 		display: flex;
 		margin-top: 5rem;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
 
 	.main__services__image {
-		width: 20%;
+		width: 400px;
 	}
 
 	.main__services__image img {
@@ -129,13 +129,13 @@
 	.main__services__wrap {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		width: 20%;
+		width: 50%;
 	}
 
 	.main__services__item {
 		display: flex;
 		width: 35rem;
-		margin: 4rem;
+		margin: 4rem 0;
 	}
 
 	.main__services__item__icon {

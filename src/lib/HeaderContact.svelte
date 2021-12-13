@@ -16,27 +16,26 @@
 
 <style>
 	.header-contact {
+		align-items: center;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
-		margin-bottom: 0.5rem;
-		width: 100%;
-		padding: 0 1rem;
+		padding: 1rem 1rem;
+		width: 96%;
 	}
 
 	.icons {
-		display: flex;
 		align-items: center;
+		display: flex;
 		justify-content: space-between;
 	}
 
 	.icons i {
-		font-size: 1.5rem;
-		color: var(--color-tertiary);
-		margin-right: 1rem;
 		background-color: var(--color-transparent-white);
-		padding: 1rem;
 		border-radius: 50%;
+		color: var(--color-tertiary);
+		font-size: 1.5rem;
+		margin-right: 1rem;
+		padding: 1rem 1.2rem;
 	}
 
 	.icons i:hover {
@@ -45,8 +44,8 @@
 	}
 
 	.text a {
-		font-size: 1.5rem;
 		color: var(--color-tertiary);
+		font-size: 1.5rem;
 		text-decoration: none;
 	}
 

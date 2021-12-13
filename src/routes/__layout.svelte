@@ -15,9 +15,9 @@
 	:global(*),
 	:global(*::before),
 	:global(*::after) {
+		box-sizing: inherit;
 		margin: 0;
 		padding: 0;
-		box-sizing: inherit;
 	}
 
 	:global(html) {
@@ -27,17 +27,15 @@
 
 	/* Variables */
 	:root {
+		--color-black-2: #252a2c;
+		--color-black: #000;
+		--color-gradient-primary: linear-gradient(to right, #1b56e9 0%, #1aad92 100%);
 		--color-primary: #1aad92;
 		--color-secondary: #1b56e9;
 		--color-tertiary: #f2f2f3;
-		--color-white: #fff;
-		--color-black: #000;
-		--color-black-2: #252a2c;
-
+		--color-transparent-black: rgba(0, 0, 0, 0.5);
 		--color-transparent-white: rgba(255, 255, 255, 0.13);
-		--color-transparent-black: rgba(0, 0, 0, 0.7);
-
-		--color-gradient-primary: linear-gradient(to right, #1b56e9 0%, #1aad92 100%);
+		--color-white: #fff;
 
 		--font-body: 'Raleway', sans-serif;
 		--font-heading: 'Montserrat', sans-serif;
@@ -45,23 +43,22 @@
 
 	/* Typography */
 	:global(body) {
+		background-color: var(--color-quaternary);
+		color: var(--color-grey);
 		font-family: var(--font-body);
 		font-size: 1.6rem;
 		line-height: 1.5;
-		color: var(--color-grey);
-		background-color: var(--color-quaternary);
 	}
 
 	:global(h2) {
-		font-family: var(--font-heading);
 		color: var(--color-dark);
-		font-size: 5rem;
+		font-family: var(--font-heading);
+		font-size: 4rem;
 		font-weight: normal;
 		line-height: 1.2;
 	}
 
 	:global(p) {
-		font-size: 1.6rem;
 		font-weight: normal;
 	}
 

@@ -30,25 +30,25 @@
 
 <style>
 	.header__cta {
-		display: flex;
-		justify-content: center;
 		align-items: center;
-		padding: 20px;
-		margin-top: -10rem;
-		font-size: 2rem;
 		color: var(--color-tertiary);
-		z-index: 1;
+		display: flex;
+		font-size: 2rem;
+		justify-content: center;
+		margin-top: -10rem;
+		padding: 20px;
 		position: relative;
+		z-index: 1;
 	}
 
 	.header-cta__one,
 	.header-cta__two,
 	.header-cta__three {
+		align-items: center;
 		background: var(--color-primary);
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
 		padding: 4rem 10rem;
 	}
 
@@ -69,5 +69,14 @@
 	.header-cta__two__text,
 	.header-cta__three__text {
 		display: none;
+	}
+
+	.header-cta__one:hover,
+	.header-cta__two:hover,
+	.header-cta__three:hover {
+		background: var(--color-secondary);
+		/* slide up */
+		transform: translateY(-10rem);
+		transition: all 0.5s ease-in-out;
 	}
 </style>

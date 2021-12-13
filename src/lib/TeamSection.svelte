@@ -16,8 +16,8 @@
 				</div>
 				<div class="team-member-info">
 					<h3>{team.name}</h3>
-					<p>{team.position}</p>
-					<p>{team.description}</p>
+					<p class="position">{team.position}</p>
+					<p class="description">{team.description}</p>
 					<!-- add socail links -->
 					<div class="social-links">
 						<a href={team.facebook} target="_blank"><i class="fab fa-facebook-f" /></a>
@@ -36,15 +36,55 @@
 		background-size: fit;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-evenly;
-		color: #fff;
+		justify-content: space-around;
+		color: var(--color-white);
 		margin-top: 30rem;
 	}
+
+	.wrap {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		margin: 0;
+	}
 	.team-member {
-		margin-top: 10rem;
+		margin: 10rem 2rem;
 		display: flex;
 		flex-direction: row;
 		align-items: top;
 		justify-content: space-between;
+		width: 30%;
+		background-color: var(--color-white);
+		color: var(--color-black);
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
+	.team-member-info {
+		padding: 2rem;
+	}
+
+	.position {
+		font-size: 1.5rem;
+		font-weight: 700;
+	}
+
+	.description {
+		font-size: 1.2rem;
+		margin-top: 1rem;
+	}
+
+	.social-links {
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 1rem;
+	}
+
+	.social-links a {
+		margin-right: 1rem;
+	}
+
+	.social-links a i {
+		font-size: 1.5rem;
+		color: var(--color-black);
 	}
 </style>

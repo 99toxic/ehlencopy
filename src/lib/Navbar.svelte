@@ -26,7 +26,7 @@
 	}
 
 	.navbar__logo {
-		display: none;
+		display: none; /* //# hide logo  (show for fixed navigation) */
 	}
 
 	.navbar__menu nav ul {

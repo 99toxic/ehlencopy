@@ -6,21 +6,23 @@
 
 <style>
 	.header-buttons {
+		align-items: center;
 		display: flex;
 		justify-content: space-evenly;
-		align-items: center;
-		width: 40%;
 		margin: 0 auto;
+		width: 40%;
 	}
 
 	.header-buttons__call,
 	.header-buttons__contact {
-		font-size: 2rem;
-		color: var(--color-tertiary);
-		text-decoration: none;
-		padding: 1rem 2rem;
 		border-radius: 5rem;
-		margin-right: 2rem;
+		color: var(--color-tertiary);
+		font-size: 2rem;
+		font-weight: 700;
+		margin-top: 1.5rem;
+		padding: 2rem 3.5rem;
+		text-decoration: none;
+		text-transform: uppercase;
 	}
 
 	.header-buttons__call {
@@ -34,8 +36,8 @@
 	}
 
 	.header-buttons__call i {
-		margin-right: 0.5rem;
 		font-size: 2rem;
+		margin-right: 0.5rem;
 	}
 
 	.header-buttons__contact {
