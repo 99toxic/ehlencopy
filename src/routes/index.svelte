@@ -1,7 +1,6 @@
 <script lang="ts">
 	import HomeHeader from '$lib/HomeHeader.svelte';
 	import HomeHeaderCTA from '$lib/HomeHeaderCTA.svelte';
-	import Heading from '$lib/Heading.svelte';
 	import ServicesSection from '$lib/ServicesSection.svelte';
 	import CTAOne from '$lib/CTAOne.svelte';
 	import ProjectSection from '$lib/ProjectSection.svelte';
@@ -9,10 +8,6 @@
 	import TeamSection from '$lib/TeamSection.svelte';
 	import CtaTwo from '$lib/CTATwo.svelte';
 	import Testimonials from '$lib/Testimonials.svelte';
-
-	let heading = 'Our digital marketing services';
-	let subHeading =
-		'Our services are uniquely optimized for each individual client, to best suit your needs.';
 
 	let title = 'Digital Marketing Agency';
 </script>
@@ -39,7 +34,6 @@
 
 <HomeHeader />
 <HomeHeaderCTA />
-<Heading {heading} {subHeading} />
 <ServicesSection />
 <CTAOne />
 <ProjectSection />

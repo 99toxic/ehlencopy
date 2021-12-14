@@ -2,7 +2,7 @@
 	<div class="header-cta__one">
 		<i class="fas fa-user" />
 		<h4>300+</h4>
-		<p>Happy Clients</p>
+		<h5>Happy Clients</h5>
 		<div class="header-cta__one__text">
 			<p>
 				Ehlen Analytics’ #1 goal is customer satisfaction with a high return on their marketing
@@ -13,7 +13,7 @@
 	<div class="header-cta__two">
 		<i class="fas fa-bullhorn" />
 		<h4>100+</h4>
-		<p>Years of Experience</p>
+		<h5>Years of Experience</h5>
 		<div class="header-cta__two__text">
 			<p>We have the experience needed to bring your business the results you’re looking for.</p>
 		</div>
@@ -21,7 +21,7 @@
 	<div class="header-cta__three">
 		<i class="fas fa-clipboard-check" />
 		<h4>1,000+</h4>
-		<p>Projects Completed</p>
+		<h5>Projects Completed</h5>
 		<div class="header-cta__three__text">
 			<p>Our quality of work and turnaround time is unmatched in the digital marketing industry.</p>
 		</div>
@@ -65,6 +65,12 @@
 		color: var(--color-white);
 	}
 
+	.header-cta__one h5,
+	.header-cta__two h5,
+	.header-cta__three h5 {
+		text-transform: uppercase;
+	}
+
 	.header-cta__one__text,
 	.header-cta__two__text,
 	.header-cta__three__text {
@@ -78,5 +84,12 @@
 		/* slide up */
 		transform: translateY(-10rem);
 		transition: all 0.5s ease-in-out;
+		width: 20%;
+	}
+
+	.header-cta__one:hover .header-cta__one__text,
+	.header-cta__two:hover .header-cta__two__text,
+	.header-cta__three:hover .header-cta__three__text {
+		display: block;
 	}
 </style>
