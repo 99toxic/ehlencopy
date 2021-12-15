@@ -1,9 +1,10 @@
 <script>
-	let title = 'About';
+	import MainHeader from '$lib/MainHeader.svelte';
 </script>
 
 <svelte:head>
-	<title>{title} | Ehlen Analytics</title>
+	<title>About | Ehlen Analytics</title>
 </svelte:head>
 
+<MainHeader />
 <h1>About</h1>

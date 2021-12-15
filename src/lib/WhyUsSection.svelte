@@ -1,15 +1,15 @@
-<div class="main__why-us">
-	<div class="main__why-us__row-1">
-		<div class="main__why-us__global-reach main__diamond">
+<div class="why-us">
+	<div class="row-1">
+		<div class="global-reach diamond">
 			<i class="fas fa-globe" />
 			<h3>Global Reach</h3>
 		</div>
-		<div class="main__why-us__communication main__diamond">
+		<div class="communication diamond">
 			<i class="fas fa-users" />
 			<h3>Communication</h3>
 		</div>
 	</div>
-	<div class="main__why-us__heading main__diamond">
+	<div class="heading diamond">
 		<h2>Why Us?</h2>
 		<hr />
 		<p>
@@ -18,16 +18,16 @@
 			every project.
 		</p>
 	</div>
-	<div class="main__why-us__row-2">
-		<div class="main__why-us__experienced main__diamond">
+	<div class="row-2">
+		<div class="experienced diamond">
 			<i class="fas fa-briefcase" />
 			<h3>Experienced</h3>
 		</div>
-		<div class="main__why-us__best-practices main__diamond">
+		<div class="best-practices diamond">
 			<i class="fas fa-trophy" />
 			<h3>Best Practices</h3>
 		</div>
-		<div class="main__why-us__personalized main__diamond">
+		<div class="personalized diamond">
 			<i class="fas fa-magic" />
 			<h3>Personalized</h3>
 		</div>
@@ -35,38 +35,74 @@
 </div>
 
 <style>
-	.main__why-us {
-		background-color: var(--color-tertiary);
+	.why-us {
+		background-color: var(--color-);
+		padding: 50px 0;
+		margin-top: 10rem;
 	}
 
-	.main__why-us i {
-		font-size: 5rem;
+	.why-us .heading {
+		text-align: center;
+		margin-bottom: 50px;
 	}
 
-	.main__why-us__row-1,
-	.main__why-us__row-2 {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
+	.why-us .heading h2 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-bottom: 20px;
 	}
 
-	.main__why-us__heading {
+	.why-us .heading p {
+		font-size: 1.2rem;
+		line-height: 1.5;
+		margin-bottom: 50px;
+	}
+
+	.why-us .heading hr {
+		width: 50px;
+		height: 2px;
+		background-color: #000;
 		margin: 0 auto;
+		margin-bottom: 30px;
 	}
 
-	.main__diamond {
-		background: var(--color-secondary);
-		height: 40rem;
-		transform: rotate(45deg);
-		width: 40rem;
+	.why-us .row-1 {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 50px;
 	}
 
-	.main__diamond i,
-	.main__diamond h2,
-	.main__diamond h3,
-	.main__diamond hr,
-	.main__diamond p {
-		transform: rotate(-45deg);
-		color: var(--color-white);
+	.why-us .row-1 .diamond {
+		width: 30%;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.why-us .row-1 .diamond i {
+		font-size: 3rem;
+		margin-bottom: 20px;
+	}
+
+	.why-us .row-1 .diamond h3 {
+		font-size: 1.5rem;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+
+	.why-us .row-2 {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 50px;
+	}
+
+	.why-us .row-2 .diamond {
+		width: 30%;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.why-us .row-2 .diamond i {
+		font-size: 3rem;
+		margin-bottom: 20px;
 	}
 </style>

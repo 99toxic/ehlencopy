@@ -1,9 +1,9 @@
 <script>
-	import BgVideo from '$lib/BgVideo.svelte';
-	import HeaderContact from '$lib/HeaderContact.svelte';
-	import Navbar from '$lib/Navbar.svelte';
+	import BgVideo from '$lib/components/BgVideo.svelte';
+	import HeaderContact from '$lib/components/HeaderContact.svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
 
-	import HeaderButtons from '$lib/HeaderButtons.svelte';
+	import HeaderButtons from '$lib/components/HeaderButtons.svelte';
 </script>
 
 <header>

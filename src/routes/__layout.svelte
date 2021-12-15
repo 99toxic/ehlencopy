@@ -3,6 +3,24 @@
 	// import MainHeader from '$lib/MainHeader.svelte';
 </script>
 
+<svelte:head>
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway&display=swap"
+		rel="stylesheet"
+	/>
+
+	<!-- Font-Awesome -->
+	<link
+		rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+		integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+		crossorigin="anonymous"
+	/>
+</svelte:head>
+
 <slot />
 
 <!-- {#if }

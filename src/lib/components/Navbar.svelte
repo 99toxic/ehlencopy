@@ -7,7 +7,7 @@
 	<div class="navbar__menu">
 		<nav>
 			<ul>
-				<li><a class="active" href="/">Home</a></li>
+				<li><a class="home" href="/">Home</a></li>
 				<li><a href="/about">About</a></li>
 				<li><a href="/services">Services</a></li>
 				<li><a href="/support-forms">Support Forms</a></li>
@@ -21,7 +21,6 @@
 	.navbar {
 		display: flex;
 		justify-content: flex-end;
-		margin-bottom: 5rem;
 		padding: 0px;
 	}
 
@@ -55,7 +54,8 @@
 		color: var(--color-primary);
 	}
 
-	.navbar__menu nav ul li a.active {
+	/* //# Add active class to navigation when on page */
+	/* .active {
 		color: var(--color-secondary);
-	}
+	} */
 </style>
