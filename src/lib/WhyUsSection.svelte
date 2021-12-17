@@ -36,29 +36,74 @@
 
 <style>
 	.why-us {
-		background-color: var(--color-);
-		padding: 50px 0;
+		background-color: var(--color-tertiary);
 		margin-top: 10rem;
 	}
 
-	.why-us .heading {
-		text-align: center;
+	.row-1 {
+		display: flex;
+		justify-content: center;
 		margin-bottom: 50px;
 	}
 
-	.why-us .heading h2 {
+	.row-2 {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 50px;
+	}
+
+	.diamond {
+		/* put items in middle */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		transform: rotate(45deg);
+	}
+
+	.heading {
+		background: var(--color-primary);
+		height: 40rem;
+		width: 40rem;
+	}
+
+	.row-1 .diamond {
+		background: var(--color-secondary);
+		height: 20rem;
+		margin: -5rem 20rem 0 20rem;
+		text-align: center;
+		transform: rotate(45deg);
+		width: 20rem;
+	}
+
+	.row-2 .diamond {
+		background: var(--color-secondary);
+		height: 20rem;
+		margin: 5rem 20rem -5rem 20rem;
+		text-align: center;
+		transform: rotate(45deg);
+		width: 20rem;
+	}
+
+	.heading {
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+
+	h2 {
 		font-size: 2.5rem;
 		font-weight: 700;
 		margin-bottom: 20px;
 	}
 
-	.why-us .heading p {
-		font-size: 1.2rem;
-		line-height: 1.5;
-		margin-bottom: 50px;
+	h3 {
+		font-size: 1.5rem;
+		font-weight: 700;
+		margin-bottom: 20px;
 	}
 
-	.why-us .heading hr {
+	hr {
 		width: 50px;
 		height: 2px;
 		background-color: #000;
@@ -66,42 +111,16 @@
 		margin-bottom: 30px;
 	}
 
-	.why-us .row-1 {
-		display: flex;
-		justify-content: space-between;
-		margin-bottom: 50px;
+	i,
+	h2,
+	h3,
+	hr,
+	p {
+		transform: rotate(-45deg);
+		color: var(--color-white);
 	}
 
-	.why-us .row-1 .diamond {
-		width: 30%;
-		text-align: center;
-		margin-bottom: 50px;
-	}
-
-	.why-us .row-1 .diamond i {
-		font-size: 3rem;
-		margin-bottom: 20px;
-	}
-
-	.why-us .row-1 .diamond h3 {
-		font-size: 1.5rem;
-		font-weight: 700;
-		margin-bottom: 20px;
-	}
-
-	.why-us .row-2 {
-		display: flex;
-		justify-content: space-between;
-		margin-bottom: 50px;
-	}
-
-	.why-us .row-2 .diamond {
-		width: 30%;
-		text-align: center;
-		margin-bottom: 50px;
-	}
-
-	.why-us .row-2 .diamond i {
+	i {
 		font-size: 3rem;
 		margin-bottom: 20px;
 	}
