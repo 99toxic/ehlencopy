@@ -10,9 +10,9 @@
 </script>
 
 <script>
-	import BgVideo from '../lib/components/BgVideo.svelte';
-	import HeaderContact from '../lib/components/HeaderContact.svelte';
-	import Navbar from '../lib/components/Navbar.svelte';
+	import BgVideo from '$lib/components/BgVideo.svelte';
+	import HeaderContact from '$lib/components/HeaderContact.svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
 
 	export let error;
 	export let status;

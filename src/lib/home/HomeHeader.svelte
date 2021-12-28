@@ -11,7 +11,7 @@
 	<HeaderContact />
 	<Navbar />
 	<div class="logo">
-		<img src="../static/images/logo-2.png" alt="logo" />
+		<img src="../../static/images/logo-2.png" alt="logo" />
 		<h2>Dominate Your Market</h2>
 		<HeaderButtons />
 	</div>

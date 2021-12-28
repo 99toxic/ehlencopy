@@ -1,13 +1,13 @@
-<div class="cta">
+<section>
 	<div class="text">
 		<h2>Ready to get started?</h2>
 		<p>Contact us today for a free consultation.</p>
 		<a href="/contact">Contact Us</a>
 	</div>
-</div>
+</section>
 
 <style>
-	.cta {
+	section {
 		background: url('./static/images/cta-home-rocket.jpg') no-repeat center;
 		background-size: cover;
 		padding: 15rem 10rem;

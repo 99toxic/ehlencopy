@@ -1,12 +1,12 @@
 <script>
-	import Heading from './Heading.svelte';
+	import Heading from '$lib/components/Heading.svelte';
 	let heading = 'Why Us';
 	let subHeading = `Ehlen Analytics strives to bring each of our clients individualized, professional digital
 				marketing solutions. We use an unmatched level of attention to detail and care with each and
 				every project.`;
 </script>
 
-<div class="why-us">
+<section>
 	<div class="row-1">
 		<div class="global-reach diamond">
 			<div class="rotate">
@@ -46,10 +46,10 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <style>
-	.why-us {
+	section {
 		background-color: var(--color-tertiary);
 		margin-top: 20rem;
 	}

@@ -1,13 +1,13 @@
 <script lang="ts">
-	import HomeHeader from '$lib/HomeHeader.svelte';
-	import HomeHeaderCTA from '$lib/components/HomeHeaderCTA.svelte';
-	import ServicesSection from '$lib/ServicesSection.svelte';
-	import CTAOne from '$lib/CTAOne.svelte';
-	import ProjectSection from '$lib/ProjectSection.svelte';
-	import WhyUsSection from '$lib/WhyUsSection.svelte';
-	import TeamSection from '$lib/TeamSection.svelte';
-	import CtaTwo from '$lib/CTATwo.svelte';
-	import Testimonials from '$lib/Testimonials.svelte';
+	import HomeHeader from '$lib/home/HomeHeader.svelte';
+	import HomeHeaderCTA from '$lib/home/HomeHeaderCTA.svelte';
+	import ServicesSection from '$lib/home/ServicesSection.svelte';
+	import CTAOne from '$lib/home/CTAOne.svelte';
+	import ProjectSection from '$lib/home/ProjectSection.svelte';
+	import WhyUsSection from '$lib/home/WhyUsSection.svelte';
+	import TeamSection from '$lib/home/TeamSection.svelte';
+	import CtaTwo from '$lib/home/CTATwo.svelte';
+	import Testimonials from '$lib/home/Testimonials.svelte';
 </script>
 
 <svelte:head>

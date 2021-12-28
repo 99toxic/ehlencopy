@@ -1,4 +1,4 @@
-<div class="cta">
+<section>
 	<div class="text">
 		<h2>Start Boosting Your Rankings Today!</h2>
 		<hr />
@@ -12,10 +12,10 @@
 		<a class="button-1" href="/contact">Contact Us</a>
 		<a class="button-2" href="/about">Learn More</a>
 	</div>
-</div>
+</section>
 
 <style>
-	.cta {
+	section {
 		background: url('./static/images/main-cta-1-bg.jpg') no-repeat center;
 		background-size: cover;
 		padding: 15rem 10rem;

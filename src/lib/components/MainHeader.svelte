@@ -1,6 +1,6 @@
 <script>
-	import HeaderContact from './components/HeaderContact.svelte';
-	import Navbar from './components/Navbar.svelte';
+	import HeaderContact from './HeaderContact.svelte';
+	import Navbar from './Navbar.svelte';
 </script>
 
 <header>
