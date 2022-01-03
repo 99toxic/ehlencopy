@@ -27,10 +27,11 @@
 	let heading = 'Our Team';
 	let subHeading =
 		'Unlike most digital marketing agencies, all of our employees work in-house. In our office, collaboration and communication are a key focus every single day.';
+	let align = 'center';
 </script>
 
 <section>
-	<Heading {heading} {subHeading} />
+	<Heading {heading} {subHeading} {align} />
 	<div class="wrap">
 		{#each teamMember as team}
 			<div class="team-member">
@@ -61,7 +62,6 @@
 		flex-wrap: wrap;
 		justify-content: space-around;
 		color: var(--color-white);
-		margin-top: 30rem;
 	}
 
 	.wrap {

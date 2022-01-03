@@ -1,32 +1,28 @@
+<script>
+	import ButtonTwo from '$lib/components/ButtonTwo.svelte';
+	import Heading from '$lib/components/Heading.svelte';
+	let heading = 'Ready to get started?';
+	let subHeading = `Contact us today for a free consultation.`;
+	let align = 'left';
+</script>
+
 <section>
-	<div class="text">
-		<h2>Ready to get started?</h2>
-		<p>Contact us today for a free consultation.</p>
-		<a href="/contact">Contact Us</a>
+	<Heading {heading} {subHeading} {align} />
+	<div class="buttons">
+		<ButtonTwo />
 	</div>
 </section>
 
 <style>
 	section {
 		background: url('./static/images/cta-home-rocket.jpg') no-repeat center;
-		background-size: cover;
+		background-size: fit;
+		color: var(--color-tertiary);
 		padding: 15rem 10rem;
 		margin-bottom: 0;
 	}
 
-	.text {
-		width: 40%;
-		color: var(--color-tertiary);
-	}
-
-	.text h2 {
-		color: inherit;
-	}
-
-	a {
-		background: var(--color-gradient-primary);
-		padding: 2rem 6rem;
-		border-radius: 5rem;
-		color: var(--color-tertiary);
+	.buttons {
+		margin-top: 5rem;
 	}
 </style>

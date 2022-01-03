@@ -65,9 +65,10 @@
 	let heading = 'Our digital marketing services';
 	let subHeading =
 		'Our services are uniquely optimized for each individual client, to best suit your needs.';
+	let align = 'center';
 </script>
 
-<Heading {heading} {subHeading} />
+<Heading {heading} {subHeading} {align} />
 
 <section>
 	<div class="image">
@@ -96,6 +97,8 @@
 		display: flex;
 		margin-top: 5rem;
 		justify-content: space-evenly;
+		background: url('../static/images/services-background.png') no-repeat right top;
+		background-size: fit;
 	}
 
 	.image {

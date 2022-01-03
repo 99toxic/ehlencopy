@@ -68,10 +68,11 @@
 	import Heading from '$lib/components/Heading.svelte';
 	let heading = 'Our Projects';
 	let subHeading = 'Expertly designed and fully optimized websites.';
+	let align = 'center';
 </script>
 
 <section>
-	<Heading {heading} {subHeading} />
+	<Heading {heading} {subHeading} {align} />
 	<div class="wrap">
 		{#each projects as project}
 			<div class="item">
@@ -93,7 +94,7 @@
 
 <style>
 	section {
-		background: url('../images/main-projects-bg.png') no-repeat right top;
+		background: url('../static/images/main-projects-bg.png') no-repeat right -200px;
 		background-size: fit;
 		display: flex;
 		flex-wrap: wrap;

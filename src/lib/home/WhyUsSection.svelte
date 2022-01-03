@@ -4,6 +4,7 @@
 	let subHeading = `Ehlen Analytics strives to bring each of our clients individualized, professional digital
 				marketing solutions. We use an unmatched level of attention to detail and care with each and
 				every project.`;
+	let align = 'center';
 </script>
 
 <section>
@@ -23,7 +24,7 @@
 	</div>
 	<div class="heading diamond">
 		<div class="rotate">
-			<Heading {heading} {subHeading} />
+			<Heading {heading} {subHeading} {align} />
 		</div>
 	</div>
 	<div class="row-2">
@@ -50,7 +51,8 @@
 
 <style>
 	section {
-		background-color: var(--color-tertiary);
+		background: url('../static/images/whyus-background.jpg') no-repeat 50% 100%;
+		background-size: cover;
 		margin-top: 20rem;
 	}
 
@@ -60,14 +62,11 @@
 
 	.row-1 {
 		display: flex;
-		justify-content: center;
-		margin-bottom: 50px;
+		justify-content: space-between;
 	}
 
 	.row-2 {
 		display: flex;
-		justify-content: space-between;
-		margin-bottom: 50px;
 	}
 
 	.diamond {
@@ -80,26 +79,56 @@
 
 	.heading {
 		background: var(--color-white);
-		height: 40rem;
+		height: 41rem;
 		margin-bottom: 50px;
 		text-align: center;
-		width: 40rem;
+		width: 41rem;
 	}
 
 	.row-1 .diamond {
 		background: var(--color-secondary);
-		height: 20rem;
-		margin: -5rem 20rem 0 20rem;
 		text-align: center;
-		width: 20rem;
 	}
 
 	.row-2 .diamond {
 		background: var(--color-secondary);
-		height: 20rem;
-		margin: 5rem 20rem -5rem 20rem;
 		text-align: center;
-		width: 20rem;
+	}
+
+	.global-reach {
+		position: relative;
+		bottom: -15rem;
+		height: 21rem;
+		right: -45rem;
+		z-index: 9;
+		width: 21rem;
+	}
+
+	.communication {
+		height: 24rem;
+		width: 24rem;
+	}
+
+	.best-practices {
+		position: relative;
+		top: -4rem;
+		left: -15rem;
+		height: 21rem;
+		width: 21rem;
+	}
+
+	.experienced {
+		position: relative;
+		top: -30rem;
+		height: 22rem;
+		width: 22rem;
+	}
+
+	.personalized {
+		position: relative;
+		top: -20rem;
+		height: 24rem;
+		width: 24rem;
 	}
 
 	h3 {
@@ -109,15 +138,8 @@
 		color: var(--color-white);
 	}
 
-	hr {
-		width: 50px;
-		height: 2px;
-		background-color: #000;
-		margin: 30px auto;
-	}
-
 	i {
-		font-size: 3rem;
+		font-size: 5rem;
 		margin-bottom: 20px;
 		color: var(--color-white);
 	}

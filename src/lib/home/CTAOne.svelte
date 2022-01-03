@@ -1,16 +1,19 @@
-<section>
-	<div class="text">
-		<h2>Start Boosting Your Rankings Today!</h2>
-		<hr />
-		<p>
-			We can’t wait to help you Dominate Your Market. All of our clients get personalized projects
+<script>
+	import ButtonTwo from '$lib/components/ButtonTwo.svelte';
+	import ButtonThree from '$lib/components/ButtonThree.svelte';
+	import Heading from '$lib/components/Heading.svelte';
+	let heading = 'Start Boosting Your Rankings Today!';
+	let subHeading = `We can’t wait to help you Dominate Your Market. All of our clients get personalized projects
 			because we know that there’s no one-size-fits-all optimization. Experience the difference that
-			superior digital marketing makes.
-		</p>
-	</div>
+			superior digital marketing makes.`;
+	let align = 'left';
+</script>
+
+<section>
+	<Heading {heading} {subHeading} {align} />
 	<div class="buttons">
-		<a class="button-1" href="/contact">Contact Us</a>
-		<a class="button-2" href="/about">Learn More</a>
+		<ButtonTwo />
+		<ButtonThree />
 	</div>
 </section>
 
@@ -18,47 +21,12 @@
 	section {
 		background: url('./static/images/main-cta-1-bg.jpg') no-repeat center;
 		background-size: cover;
+		color: var(--color-tertiary);
 		padding: 15rem 10rem;
 		margin-bottom: 0;
 	}
-
-	.text {
-		width: 40%;
-		color: var(--color-tertiary);
-	}
-
-	.text h2 {
-		color: inherit;
-	}
-
-	.text hr {
-		margin: 2rem 0;
-	}
-
 	.buttons {
 		align-items: center;
 		margin-top: 5rem;
-	}
-
-	.buttons a {
-		font-size: 1.5rem;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-weight: bold;
-	}
-
-	.button-1 {
-		background: var(--color-gradient-primary);
-		padding: 2rem 6rem;
-		border-radius: 5rem;
-		color: var(--color-tertiary);
-		margin-right: 2rem;
-	}
-
-	.button-2 {
-		background: var(--color-white);
-		padding: 2rem 6rem;
-		border-radius: 5rem;
-		color: var(--color-dark);
 	}
 </style>

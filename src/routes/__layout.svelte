@@ -79,10 +79,4 @@
 	:global(p) {
 		font-weight: normal;
 	}
-
-	:global(hr) {
-		width: 5rem;
-		border: 2px solid var(--color-primary);
-		margin: 2rem auto;
-	}
 </style>
