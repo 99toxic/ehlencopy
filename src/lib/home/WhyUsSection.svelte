@@ -51,7 +51,7 @@
 
 <style>
 	section {
-		background: url('../static/images/whyus-background.jpg') no-repeat 50% 100%;
+		background: url('../images/whyus-background.jpg') no-repeat 50% 100%;
 		background-size: cover;
 		margin-top: 20rem;
 	}
@@ -85,11 +85,7 @@
 		width: 41rem;
 	}
 
-	.row-1 .diamond {
-		background: var(--color-secondary);
-		text-align: center;
-	}
-
+	.row-1 .diamond,
 	.row-2 .diamond {
 		background: var(--color-secondary);
 		text-align: center;
@@ -99,7 +95,7 @@
 		position: relative;
 		bottom: -15rem;
 		height: 21rem;
-		right: -45rem;
+		right: -30rem;
 		z-index: 9;
 		width: 21rem;
 	}

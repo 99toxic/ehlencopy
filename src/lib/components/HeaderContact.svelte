@@ -18,8 +18,8 @@
 	.header-contact {
 		align-items: center;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-between;
-		padding: 1rem 1rem;
 		width: 96%;
 	}
 
@@ -27,6 +27,7 @@
 		align-items: center;
 		display: flex;
 		justify-content: space-between;
+		padding: 1rem 1rem;
 	}
 
 	.icons i {
@@ -41,6 +42,13 @@
 	.icons i:hover {
 		background-color: var(--color-primary);
 		color: var(--color-white);
+	}
+
+	.text {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		padding: 1rem 1rem;
 	}
 
 	.text a {
