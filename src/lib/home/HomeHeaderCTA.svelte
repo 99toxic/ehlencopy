@@ -12,7 +12,7 @@
 	</div>
 	<div class="header-cta__two">
 		<i class="fas fa-bullhorn" />
-		<h4>100+</h4>
+		<h4>5+</h4>
 		<h5>Years of Experience</h5>
 		<div class="header-cta__two__text">
 			<p>We have the experience needed to bring your business the results you’re looking for.</p>
@@ -35,7 +35,6 @@
 		display: flex;
 		font-size: 2rem;
 		justify-content: center;
-		margin-top: -10rem;
 		padding: 20px;
 		position: relative;
 		z-index: 1;
@@ -49,7 +48,10 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		padding: 4rem 10rem;
+		padding: 4rem 6rem;
+		width: 40rem;
+		height: 30rem;
+		margin-top: -10rem;
 	}
 
 	.header-cta__one i,
@@ -81,15 +83,16 @@
 	.header-cta__two:hover,
 	.header-cta__three:hover {
 		background: var(--color-secondary);
-		/* slide up */
 		transform: translateY(-10rem);
 		transition: all 0.5s ease-in-out;
-		width: 20%;
+		height: fit-content;
 	}
 
 	.header-cta__one:hover .header-cta__one__text,
 	.header-cta__two:hover .header-cta__two__text,
 	.header-cta__three:hover .header-cta__three__text {
-		display: block;
+		display: inline-block;
+		opacity: 1;
+		transition: all 0.5s ease-in-out;
 	}
 </style>

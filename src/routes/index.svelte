@@ -1,6 +1,5 @@
 <script lang="ts">
 	import HomeHeader from '$lib/home/HomeHeader.svelte';
-	import HomeHeaderCTA from '$lib/home/HomeHeaderCTA.svelte';
 	import ServicesSection from '$lib/home/ServicesSection.svelte';
 	import CTAOne from '$lib/home/CTAOne.svelte';
 	import ProjectSection from '$lib/home/ProjectSection.svelte';
@@ -15,7 +14,6 @@
 </svelte:head>
 
 <HomeHeader />
-<HomeHeaderCTA />
 <ServicesSection />
 <CTAOne />
 <ProjectSection />

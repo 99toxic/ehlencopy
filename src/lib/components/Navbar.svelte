@@ -54,7 +54,7 @@
 	.navbar {
 		display: flex;
 		justify-content: flex-end;
-		padding: 0px;
+		padding: 2rem 5rem;
 	}
 
 	.menu nav ul {
@@ -97,7 +97,6 @@
 	.mobile-nav ul li a {
 		font-size: 5rem;
 		color: var(--color-tertiary);
-		margin-right: 1rem;
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: bold;

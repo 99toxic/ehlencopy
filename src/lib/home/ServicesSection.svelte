@@ -60,6 +60,7 @@
 </script>
 
 <script>
+	import HomeHeaderCTA from '$lib/home/HomeHeaderCTA.svelte';
 	import Heading from '$lib/components/Heading.svelte';
 
 	let heading = 'Our digital marketing services';
@@ -68,37 +69,40 @@
 	let align = 'center';
 </script>
 
-<Heading {heading} {subHeading} {align} />
-
 <section>
-	<div class="image">
-		<img src="../static/images/iphone.jpg" alt="services" />
-	</div>
-	<div class="wrap">
-		{#each services as service}
-			<div class="item">
-				<div class="item__icon">
-					<i class={service.icon} />
+	<HomeHeaderCTA />
+	<Heading {heading} {subHeading} {align} />
+	<div class="main">
+		<div class="image">
+			<img src="../static/images/iphone.jpg" alt="services" />
+		</div>
+		<div class="wrap">
+			{#each services as service}
+				<div class="item">
+					<div class="item__icon">
+						<i class={service.icon} />
+					</div>
+					<div class="item__text">
+						<h3>{service.title}</h3>
+						<p>
+							{service.description}
+						</p>
+						<a href={service.link}>Read More</a>
+					</div>
 				</div>
-				<div class="item__text">
-					<h3>{service.title}</h3>
-					<p>
-						{service.description}
-					</p>
-					<a href={service.link}>Read More</a>
-				</div>
-			</div>
-		{/each}
+			{/each}
+		</div>
 	</div>
 </section>
 
 <style>
 	section {
+		background: url('../static/images/services-background.png') no-repeat left top;
+	}
+	.main {
 		display: flex;
 		margin-top: 5rem;
 		justify-content: space-evenly;
-		background: url('../static/images/services-background.png') no-repeat right top;
-		background-size: fit;
 	}
 
 	.image {

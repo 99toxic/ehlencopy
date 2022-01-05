@@ -1,3 +1,4 @@
+<!-- Hamburger Menu Animagtion credited to Johnny Magrippis on YouTube 'https://www.youtube.com/channel/UCm1ALyg61uhPoTnZBm7mY2g' -->
 <script lang="ts">
 	export let open = false;
 	export let onClick = () => {
@@ -8,7 +9,7 @@
 </script>
 
 <button on:click={onClick} aria-expanded={open} aria-label={ariaLabel}>
-	<svg class:open viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="5" {width}>
+	<svg class:open viewBox="0 0 100 100" fill="none" stroke="white" stroke-width="5" {width}>
 		<path
 			class="top"
 			d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"

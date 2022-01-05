@@ -22,7 +22,6 @@
 		background-color: var(--color-transparent-black);
 		color: var(--color-dark);
 		height: 100vh;
-		padding: 2rem 5rem;
 		position: relative;
 		text-align: center;
 	}

@@ -1,5 +1,6 @@
 <script>
 	import MainHeader from '$lib/components/MainHeader.svelte';
+	import AboutUs from '$lib/about/AboutUs.svelte';
 </script>
 
 <svelte:head>
@@ -7,4 +8,4 @@
 </svelte:head>
 
 <MainHeader />
-<h1>About</h1>
+<AboutUs />

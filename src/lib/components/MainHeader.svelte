@@ -1,12 +1,12 @@
 <script>
-	import HeaderContact from './HeaderContact.svelte';
-	import Navbar from './Navbar.svelte';
+	import HeaderContact from '$lib/components/HeaderContact.svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
 </script>
 
 <header>
 	<HeaderContact />
 	<Navbar />
-	<img src="../static/images/logo-2.png" alt="logo" />
+	<img src="../images/logo-2.png" alt="logo" />
 </header>
 
 <style>
