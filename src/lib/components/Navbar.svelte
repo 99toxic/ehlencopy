@@ -2,6 +2,7 @@
 	import MediaQuery from './MediaQuery.svelte';
 	import { fly } from 'svelte/transition';
 	import AnimatedHamburger from './AnimatedHamburger.svelte';
+	import ActiveLink from '$lib/components/ActiveLink.svelte';
 
 	export let open = false;
 	export let onClick = () => {
@@ -20,11 +21,11 @@
 			{#if matches}
 				<nav>
 					<ul>
-						<li><a class="home" href="/">Home</a></li>
-						<li><a href="/about">About</a></li>
-						<li><a href="/services">Services</a></li>
-						<li><a href="/support-forms">Support Forms</a></li>
-						<li><a href="/contact">Contact Us</a></li>
+						<li><ActiveLink class="home" href="/">Home</ActiveLink></li>
+						<li><ActiveLink href="/about">About</ActiveLink></li>
+						<li><ActiveLink href="/services">Services</ActiveLink></li>
+						<li><ActiveLink href="/support-forms">Support Forms</ActiveLink></li>
+						<li><ActiveLink href="/contact">Contact Us</ActiveLink></li>
 					</ul>
 				</nav>
 			{/if}
@@ -41,11 +42,11 @@
 {#if open}
 	<nav class="mobile-nav" transition:fly={{ y: -200, duration: 400 }}>
 		<ul>
-			<li><a class="home" href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/services">Services</a></li>
-			<li><a href="/support-forms">Support Forms</a></li>
-			<li><a href="/contact">Contact Us</a></li>
+			<li><ActiveLink class="home" href="/">Home</ActiveLink></li>
+			<li><ActiveLink href="/about">About</ActiveLink></li>
+			<li><ActiveLink href="/services">Services</ActiveLink></li>
+			<li><ActiveLink href="/support-forms">Support Forms</ActiveLink></li>
+			<li><ActiveLink href="/contact">Contact Us</ActiveLink></li>
 		</ul>
 	</nav>
 {/if}
@@ -70,19 +71,6 @@
 		margin-right: 1rem;
 	}
 
-	.menu nav ul li a {
-		font-size: 1.5rem;
-		color: var(--color-tertiary);
-		margin-right: 1rem;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-weight: bold;
-	}
-
-	.menu nav ul li a:hover {
-		color: var(--color-primary);
-	}
-
 	.mobile-nav {
 		position: absolute;
 		z-index: 2;
@@ -92,7 +80,15 @@
 		flex-direction: column;
 		gap: 0.5rem;
 		align-items: center;
-		background-color: var(--color-primary);
+		background-color: var(--color-black);
+	}
+
+	.mobile-nav ul {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		align-items: center;
+		list-style-type: none;
 	}
 	.mobile-nav ul li a {
 		font-size: 5rem;

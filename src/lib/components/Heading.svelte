@@ -23,7 +23,7 @@
 	.center hr {
 		width: 5rem;
 		border: 2px solid var(--color-primary);
-		margin: 2rem auto;
+		margin: 4rem auto;
 	}
 
 	.left hr {
