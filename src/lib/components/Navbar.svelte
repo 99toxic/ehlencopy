@@ -90,13 +90,6 @@
 		align-items: center;
 		list-style-type: none;
 	}
-	.mobile-nav ul li a {
-		font-size: 5rem;
-		color: var(--color-tertiary);
-		text-decoration: none;
-		text-transform: uppercase;
-		font-weight: bold;
-	}
 
 	/* //# Add active class to navigation when on page */
 	/* .active {
