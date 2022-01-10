@@ -74,7 +74,7 @@
 	<Heading {heading} {subHeading} {align} />
 	<div class="main">
 		<div class="image">
-			<img src="../static/images/iphone.jpg" alt="services" />
+			<img src="./images/iphone.jpg" alt="services" />
 		</div>
 		<div class="wrap">
 			{#each services as service}
@@ -97,7 +97,7 @@
 
 <style>
 	section {
-		background: url('../static/images/services-background.png') no-repeat left top;
+		background: url('./images/services-background.png') no-repeat left top;
 	}
 	.main {
 		display: flex;
@@ -145,5 +145,15 @@
 		margin-top: 2rem;
 		text-align: right;
 		visibility: hidden; /* //& Hide the link text until hover */
+	}
+
+	@media only screen and (max-width: 1100px) {
+		.image {
+			display: none;
+		}
+
+		.wrap {
+			width: 100%;
+		}
 	}
 </style>

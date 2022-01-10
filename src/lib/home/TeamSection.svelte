@@ -163,19 +163,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="team-member">
-					<img src={team.image} alt={team.name} />
-					<div class="info">
-						<h3 class="title">{team.name}</h3>
-						<p class="position">{team.position}</p>
-						<p class="description">{team.description}</p>
-						<div class="social-links">
-							<a href={team.facebook} target="_blank"><i class="fab fa-facebook-f" /></a>
-							<a href={team.twitter} target="_blank"><i class="fab fa-twitter" /></a>
-							<a href={team.linkedin} target="_blank"><i class="fab fa-linkedin" /></a>
-						</div>
-					</div>
-				</div>
 			</div>
 		{/each}
 	</svelte:component>

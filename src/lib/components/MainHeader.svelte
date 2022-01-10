@@ -6,7 +6,7 @@
 <header>
 	<HeaderContact />
 	<Navbar />
-	<img src="../images/logo-2.png" alt="logo" />
+	<img src="./images/logo-2.png" alt="logo" />
 </header>
 
 <style>

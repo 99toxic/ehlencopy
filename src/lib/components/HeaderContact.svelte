@@ -19,8 +19,8 @@
 		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: space-between;
-		width: 96%;
+		justify-content: space-around;
+		padding: 1rem;
 	}
 
 	.icons {
@@ -47,8 +47,6 @@
 	.text {
 		align-items: center;
 		display: flex;
-		justify-content: space-between;
-		padding: 1rem 1rem;
 	}
 
 	.text a {
@@ -58,7 +56,7 @@
 	}
 
 	.text a:not(:last-child) {
-		margin-right: 1rem;
+		margin-right: 5rem;
 	}
 
 	.text i {

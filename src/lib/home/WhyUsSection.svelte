@@ -128,9 +128,6 @@
 	}
 
 	h3 {
-		font-size: 1.5rem;
-		font-weight: 700;
-		margin-bottom: 20px;
 		color: var(--color-white);
 	}
 

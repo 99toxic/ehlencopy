@@ -1,7 +1,7 @@
 <script lang="ts">
-	import MediaQuery from './MediaQuery.svelte';
+	import MediaQuery from '$lib/components/MediaQuery.svelte';
 	import { fly } from 'svelte/transition';
-	import AnimatedHamburger from './AnimatedHamburger.svelte';
+	import AnimatedHamburger from '$lib/components/AnimatedHamburger.svelte';
 	import ActiveLink from '$lib/components/ActiveLink.svelte';
 
 	export let open = false;
@@ -17,7 +17,7 @@
 		</a>
 	</div> -->
 	<div class="menu">
-		<MediaQuery query="(min-width: 1281px)" let:matches>
+		<MediaQuery query="(min-width: 1100px)" let:matches>
 			{#if matches}
 				<nav>
 					<ul>
@@ -25,14 +25,11 @@
 						<li><ActiveLink href="/about">About</ActiveLink></li>
 						<li><ActiveLink href="/services">Services</ActiveLink></li>
 						<li><ActiveLink href="/support-forms">Support Forms</ActiveLink></li>
+						<li><ActiveLink href="/blog">Blog</ActiveLink></li>
 						<li><ActiveLink href="/contact">Contact Us</ActiveLink></li>
 					</ul>
 				</nav>
-			{/if}
-		</MediaQuery>
-
-		<MediaQuery query="(max-width: 1280px)" let:matches>
-			{#if matches}
+			{:else}
 				<AnimatedHamburger {open} {onClick} />
 			{/if}
 		</MediaQuery>
@@ -46,6 +43,7 @@
 			<li><ActiveLink href="/about">About</ActiveLink></li>
 			<li><ActiveLink href="/services">Services</ActiveLink></li>
 			<li><ActiveLink href="/support-forms">Support Forms</ActiveLink></li>
+			<li><ActiveLink href="/blog">Blog</ActiveLink></li>
 			<li><ActiveLink href="/contact">Contact Us</ActiveLink></li>
 		</ul>
 	</nav>
@@ -55,20 +53,20 @@
 	.navbar {
 		display: flex;
 		justify-content: flex-end;
-		padding: 2rem 5rem;
 	}
 
 	.menu nav ul {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		padding: 2rem 5rem;
 	}
 
 	.menu nav ul li {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		margin-right: 1rem;
+		margin-right: 2rem;
 	}
 
 	.mobile-nav {
@@ -90,9 +88,4 @@
 		align-items: center;
 		list-style-type: none;
 	}
-
-	/* //# Add active class to navigation when on page */
-	/* .active {
-		color: var(--color-secondary);
-	} */
 </style>

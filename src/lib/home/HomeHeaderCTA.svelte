@@ -1,35 +1,35 @@
-<div class="header__cta">
-	<div class="header-cta__one">
+<section>
+	<div class="cta">
 		<i class="fas fa-user" />
 		<h4>300+</h4>
 		<h5>Happy Clients</h5>
-		<div class="header-cta__one__text">
+		<div class="text">
 			<p>
 				Ehlen Analytics’ #1 goal is customer satisfaction with a high return on their marketing
 				dollars.
 			</p>
 		</div>
 	</div>
-	<div class="header-cta__two">
+	<div class="cta">
 		<i class="fas fa-bullhorn" />
 		<h4>5+</h4>
 		<h5>Years of Experience</h5>
-		<div class="header-cta__two__text">
+		<div class="text">
 			<p>We have the experience needed to bring your business the results you’re looking for.</p>
 		</div>
 	</div>
-	<div class="header-cta__three">
+	<div class="cta">
 		<i class="fas fa-clipboard-check" />
 		<h4>1,000+</h4>
 		<h5>Projects Completed</h5>
-		<div class="header-cta__three__text">
+		<div class="text">
 			<p>Our quality of work and turnaround time is unmatched in the digital marketing industry.</p>
 		</div>
 	</div>
-</div>
+</section>
 
 <style>
-	.header__cta {
+	section {
 		align-items: center;
 		color: var(--color-tertiary);
 		display: flex;
@@ -40,9 +40,7 @@
 		z-index: 1;
 	}
 
-	.header-cta__one,
-	.header-cta__two,
-	.header-cta__three {
+	.cta {
 		align-items: center;
 		background: var(--color-primary);
 		display: flex;
@@ -54,43 +52,30 @@
 		margin-top: -10rem;
 	}
 
-	.header-cta__one i,
-	.header-cta__two i,
-	.header-cta__three i {
+	i {
 		font-size: 5rem;
 	}
 
-	.header-cta__one h4,
-	.header-cta__two h4,
-	.header-cta__three h4 {
+	h4 {
 		font-size: 6rem;
 		color: var(--color-white);
 	}
 
-	.header-cta__one h5,
-	.header-cta__two h5,
-	.header-cta__three h5 {
+	h5 {
 		text-transform: uppercase;
 	}
 
-	.header-cta__one__text,
-	.header-cta__two__text,
-	.header-cta__three__text {
+	.text {
 		display: none;
 	}
 
-	.header-cta__one:hover,
-	.header-cta__two:hover,
-	.header-cta__three:hover {
+	.cta:hover {
 		background: var(--color-secondary);
 		transform: translateY(-10rem);
 		transition: all 0.5s ease-in-out;
 		height: fit-content;
 	}
-
-	.header-cta__one:hover .header-cta__one__text,
-	.header-cta__two:hover .header-cta__two__text,
-	.header-cta__three:hover .header-cta__three__text {
+	.cta:hover .text {
 		display: inline-block;
 		opacity: 1;
 		transition: all 0.5s ease-in-out;

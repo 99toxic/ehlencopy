@@ -2,11 +2,11 @@
 	import ButtonTwo from '$lib/components/ButtonTwo.svelte';
 	import ButtonThree from '$lib/components/ButtonThree.svelte';
 	import Heading from '$lib/components/Heading.svelte';
-	let heading = 'Start Boosting Your Rankings Today!';
+	let heading = `Start Boosting Your Rankings Today!`;
 	let subHeading = `We can’t wait to help you Dominate Your Market. All of our clients get personalized projects
 			because we know that there’s no one-size-fits-all optimization. Experience the difference that
 			superior digital marketing makes.`;
-	let align = 'left';
+	let align = `left`;
 </script>
 
 <section>
@@ -19,7 +19,7 @@
 
 <style>
 	section {
-		background: url('./static/images/main-cta-1-bg.jpg') no-repeat center;
+		background: url('./images/main-cta-1-bg.jpg') no-repeat center;
 		background-size: cover;
 		color: var(--color-tertiary);
 		padding: 15rem 10rem;

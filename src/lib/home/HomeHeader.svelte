@@ -3,7 +3,8 @@
 	import HeaderContact from '$lib/components/HeaderContact.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 
-	import HeaderButtons from '$lib/components/HeaderButtons.svelte';
+	import ButtonOne from '$lib/components/ButtonOne.svelte';
+	import ButtonTwo from '$lib/components/ButtonTwo.svelte';
 </script>
 
 <header>
@@ -11,9 +12,12 @@
 	<HeaderContact />
 	<Navbar />
 	<div class="logo">
-		<img src="../../static/images/logo-2.png" alt="logo" />
+		<img src="./images/logo-2.png" alt="logo" />
 		<h2>Dominate Your Market</h2>
-		<HeaderButtons />
+		<div class="buttons">
+			<ButtonOne />
+			<ButtonTwo />
+		</div>
 	</div>
 </header>
 
@@ -37,11 +41,16 @@
 		display: block;
 		margin: 0 auto;
 		width: 30%;
+		min-width: 350px;
 	}
 	h2 {
 		color: var(--color-white);
-		font-size: 4.5rem;
-		margin-bottom: 2rem;
-		margin-top: -3.5rem;
+	}
+	.buttons {
+		align-items: center;
+		display: flex;
+		justify-content: space-evenly;
+		margin: 0 auto;
+		width: 40%;
 	}
 </style>
