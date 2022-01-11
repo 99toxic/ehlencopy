@@ -47,6 +47,6 @@
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		gap: 2rem;
+		gap: 3rem;
 	}
 </style>
