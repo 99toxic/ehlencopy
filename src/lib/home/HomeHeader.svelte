@@ -41,7 +41,7 @@
 		display: block;
 		margin: 0 auto;
 		width: 30%;
-		min-width: 350px;
+		min-width: 380px;
 	}
 	h2 {
 		color: var(--color-white);
@@ -52,5 +52,11 @@
 		justify-content: space-evenly;
 		margin: 0 auto;
 		width: 40%;
+	}
+
+	@media (max-width: 1100px) {
+		.buttons {
+			width: 90%;
+		}
 	}
 </style>

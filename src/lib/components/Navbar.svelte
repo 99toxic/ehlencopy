@@ -23,7 +23,27 @@
 					<ul>
 						<li><ActiveLink class="home" href="/">Home</ActiveLink></li>
 						<li><ActiveLink href="/about">About</ActiveLink></li>
-						<li><ActiveLink href="/services">Services</ActiveLink></li>
+						<li>
+							<ActiveLink href="/services">Services</ActiveLink>
+
+							<!-- Dropdown menu for service pages -->
+							<!-- <ul class="dropdown-menu" style="display: none;">
+								<li><ActiveLink href="/local-national-seo">Local & National SEO</ActiveLink></li>
+								<li>
+									<ActiveLink href="/social-media-management">Social Media Management</ActiveLink>
+								</li>
+								<li><ActiveLink href="/content-writing">Content Writing</ActiveLink></li>
+								<li>
+									<ActiveLink href="/reputation-management">Reputation Management</ActiveLink>
+								</li>
+								<li>
+									<ActiveLink href="/web-design-development">Web Design & Development</ActiveLink>
+								</li>
+								<li><ActiveLink href="/google-my-business">Google My Business</ActiveLink></li>
+								<li><ActiveLink href="/google-ads">Google Ads</ActiveLink></li>
+								<li><ActiveLink href="/facebook-ads">Facebook Ads</ActiveLink></li>
+							</ul> -->
+						</li>
 						<li><ActiveLink href="/support-forms">Support Forms</ActiveLink></li>
 						<li><ActiveLink href="/blog">Blog</ActiveLink></li>
 						<li><ActiveLink href="/contact">Contact Us</ActiveLink></li>
@@ -68,7 +88,6 @@
 		justify-content: center;
 		margin-right: 2rem;
 	}
-
 	.mobile-nav {
 		position: absolute;
 		z-index: 2;

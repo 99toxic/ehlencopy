@@ -34,6 +34,7 @@
 		color: var(--color-tertiary);
 		display: flex;
 		font-size: 2rem;
+		flex-wrap: wrap;
 		justify-content: center;
 		padding: 20px;
 		position: relative;
