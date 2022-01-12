@@ -2,6 +2,7 @@
 	// import HomeHeader from '$lib/HomeHeader.svelte';
 	// import MainHeader from '$lib/MainHeader.svelte';
 	import '../styles/global.css';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -23,6 +24,8 @@
 </svelte:head>
 
 <slot />
+
+<Footer />
 
 <!-- {#if }
 	<HomeHeader />

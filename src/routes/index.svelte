@@ -7,6 +7,7 @@
 	import TeamSection from '$lib/home/TeamSection.svelte';
 	import CtaTwo from '$lib/home/CTATwo.svelte';
 	import Testimonials from '$lib/home/Testimonials.svelte';
+	import Badges from '$lib/home/Badges.svelte';
 </script>
 
 <svelte:head>
@@ -21,3 +22,4 @@
 <TeamSection />
 <CtaTwo />
 <Testimonials />
+<Badges />
