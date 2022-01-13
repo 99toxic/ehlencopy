@@ -1,8 +1,8 @@
 <script>
 	import Heading from '$lib/components/Heading.svelte';
-	let heading = 'About Us';
-	let subHeading = 'Founded by two brothers with a passion for digital marketing';
-	let align = 'center';
+	let heading = `About Us`;
+	let subHeading = `Founded by two brothers with a passion for digital marketing`;
+	let align = `center`;
 </script>
 
 <section>

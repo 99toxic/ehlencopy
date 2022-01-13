@@ -14,8 +14,9 @@ html {
 
 /* Variables */
 :root {
-	--color-black-2: #252a2c;
 	--color-black: #000;
+	--color-black-2: #252a2c;
+	--color-black-3: #333;
 	--color-gradient-primary: linear-gradient(to right, #1b56e9 0%, #1aad92 100%);
 	--color-primary: #1aad92;
 	--color-secondary: #1b56e9;
@@ -60,6 +61,11 @@ h3 {
 
 p {
 	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 hr {

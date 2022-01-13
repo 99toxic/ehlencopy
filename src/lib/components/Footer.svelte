@@ -7,7 +7,7 @@
 	/>
 </section>
 <footer>
-	<div class="container">
+	<div class="info">
 		<div class="image-links">
 			<img src="./images/logo-2.png" alt="" />
 
@@ -35,16 +35,38 @@
 			<p>&copy; 2022 Ehlen Analytics. All rights reserved.</p>
 		</div>
 	</div>
-	<div class="container">
-		<div class="footer-links">
-			<h3>Our Services</h3>
+	<div class="footer-links">
+		<h3>Our Services</h3>
+		<div class="item">
+			<i class="fas fa-search" />
 			<a href="/local-national-seo">Local & National SEO</a>
+		</div>
+		<div class="item">
+			<i class="fas fa-users" />
 			<a href="/social-media-management">Social Media Management</a>
+		</div>
+		<div class="item">
+			<i class="fas fa-pencil-alt" />
 			<a href="content-writing">Content Writing</a>
+		</div>
+		<div class="item">
+			<i class="fas fa-star" />
 			<a href="/reputation-management">Reputation Management</a>
+		</div>
+		<div class="item">
+			<i class="fas fa-laptop" />
 			<a href="/web-design-development">Web Design & Development</a>
+		</div>
+		<div class="item">
+			<i class="fas fa-map-marker-alt" />
 			<a href="/google-my-business">Google My business</a>
+		</div>
+		<div class="item">
+			<i class="fab fa-google" />
 			<a href="/google-ads">Google Ads</a>
+		</div>
+		<div class="item">
+			<i class="fab fa-facebook-f" />
 			<a href="/facebook-ads">Facebook Ads</a>
 		</div>
 	</div>
@@ -69,20 +91,18 @@
 
 <style>
 	footer {
-		background: #1a1a1a;
+		background: var(--color-black-3);
 		display: flex;
 		justify-content: space-between;
 		padding: 50px;
-		color: #fff;
+		color: var(--color-white);
 	}
-	.container {
-		width: 33%;
-		margin: 0 auto;
+	.info {
+		width: 40%;
 	}
 
 	.image-links {
 		display: flex;
-		justify-content: start;
 	}
 
 	img {
@@ -94,29 +114,66 @@
 	}
 
 	.social {
-		display: flex;
-		justify-content: space-around;
 		padding: 2rem 0;
-		width: 30%;
 	}
 
-	.footer-links {
+	.social a {
+		color: var(--color-secondary);
+		font-size: 2rem;
+		background: var(--color-white);
+		margin: 0 1rem;
+		border-radius: 50%;
+		padding: 1.5rem;
+	}
+
+	.social a:hover {
+		background: var(--color-primary);
+		color: inherit;
+	}
+
+	.item {
 		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		margin-bottom: 2rem;
+		padding: 1rem 0;
+	}
+
+	.item i {
+		font-size: 2rem;
+		margin-right: 1rem;
+		color: var(--color-primary);
+	}
+
+	.footer-links h3 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
 	}
 
 	.footer-links a {
-		color: #fff;
-		text-decoration: none;
+		color: var(--color-white);
 		font-size: 1.2rem;
 		margin-bottom: 1rem;
 	}
 
 	.footer-links a:hover {
-		color: #fff;
+		color: var(--color-white);
 		text-decoration: underline;
+	}
+
+	.contact-info {
+		color: var(--color-white);
+	}
+
+	.contact-info h3 {
+		margin-bottom: 1rem;
+		font-size: 2.5rem;
+	}
+
+	.contact-info p {
+		margin-bottom: 1rem;
+	}
+
+	.contact-info p i {
+		font-size: 2rem;
+		margin-right: 1rem;
+		color: var(--color-primary);
 	}
 </style>

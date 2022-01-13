@@ -1,24 +1,31 @@
 <script context="module">
 	export const badges = [
 		{
+			name: 'Facebook Badge',
 			image: './images/badges/facebook-badge.png'
 		},
 		{
+			name: 'Google Ads Badge',
 			image: './images/badges/google-ads-badge.png'
 		},
 		{
+			name: 'Google Analytics Badge',
 			image: './images/badges/google-analytics-badge.png'
 		},
 		{
+			name: 'Google Partner Badge',
 			image: './images/badges/google-partner-badge.png'
 		},
 		{
+			name: 'Simrush Badge',
 			image: './images/badges/simrush-badge.png'
 		},
 		{
+			name: 'Top Digital Badge',
 			image: './images/badges/top-digital-badge.png'
 		},
 		{
+			name: 'Wix Badge',
 			image: './images/badges/wix-badge.png'
 		}
 	];
@@ -46,7 +53,7 @@
 		let:loaded
 		autoplay
 		autoplayDuration={5000}
-		particlesToShow={2}
+		particlesToShow={4}
 		particlesToScroll={2}
 		arrows={false}
 		dots={false}
