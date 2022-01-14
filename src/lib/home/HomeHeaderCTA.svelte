@@ -30,15 +30,18 @@
 
 <style>
 	section {
+		margin: 0 auto;
+		left: 50%;
+		transform: translateX(-50%);
 		align-items: center;
 		color: var(--color-tertiary);
 		display: flex;
 		font-size: 2rem;
-		flex-wrap: wrap;
 		justify-content: center;
-		padding: 20px;
-		position: relative;
+		margin: 5rem 0 20rem 0;
 		z-index: 1;
+		position: relative;
+		width: 70%;
 	}
 
 	.cta {
@@ -47,10 +50,18 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		padding: 4rem 6rem;
-		width: 40rem;
-		height: 30rem;
-		margin-top: -10rem;
+		padding: 5rem 6rem;
+		width: calc(100% / 3);
+		height: fit-content;
+		position: absolute;
+	}
+
+	.cta:nth-child(1) {
+		left: 0;
+	}
+
+	.cta:nth-child(2) {
+		right: 0;
 	}
 
 	i {
@@ -73,12 +84,11 @@
 	.cta:hover {
 		background: var(--color-secondary);
 		transform: translateY(-10rem);
-		transition: all 0.5s ease-in-out;
-		height: fit-content;
+		transition: all 0.5s ease-in;
 	}
 	.cta:hover .text {
-		display: inline-block;
-		opacity: 1;
-		transition: all 0.5s ease-in-out;
+		display: block;
+		transition: all 5s ease-in-out;
+		overflow: hidden;
 	}
 </style>

@@ -101,6 +101,7 @@
 	}
 	.main {
 		display: flex;
+		flex-wrap: wrap;
 		margin-top: 5rem;
 		justify-content: space-evenly;
 	}
@@ -137,14 +138,22 @@
 	}
 
 	.item a {
-		font-size: 1.5rem;
-		color: var(--color-grey);
-		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: bold;
 		margin-top: 2rem;
 		text-align: right;
-		visibility: hidden; /* //& Hide the link text until hover */
+		opacity: 0;
+	}
+
+	.item:hover {
+		transform: scale(1.1);
+
+		transition: all 0.5s ease-in-out;
+	}
+
+	.item:hover a {
+		opacity: 1;
+		transition: all 1s ease-in-out;
 	}
 
 	@media only screen and (max-width: 1100px) {
@@ -154,6 +163,7 @@
 
 		.wrap {
 			width: 100%;
+			padding: 0 2rem;
 		}
 	}
 </style>
