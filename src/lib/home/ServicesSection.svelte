@@ -104,10 +104,12 @@
 		flex-wrap: wrap;
 		margin-top: 5rem;
 		justify-content: space-evenly;
+		width: 90%;
+		margin: 0 auto;
 	}
 
 	.image {
-		width: 400px;
+		width: 20%;
 	}
 
 	.image img {
@@ -115,8 +117,9 @@
 	}
 
 	.wrap {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
 		width: 50%;
 	}
 
@@ -156,14 +159,14 @@
 		transition: all 1s ease-in-out;
 	}
 
-	@media only screen and (max-width: 1100px) {
+	@media (max-width: 1100px) {
 		.image {
 			display: none;
 		}
 
 		.wrap {
 			width: 100%;
-			padding: 0 2rem;
+			justify-content: space-around;
 		}
 	}
 </style>

@@ -91,4 +91,19 @@
 		transition: all 5s ease-in-out;
 		overflow: hidden;
 	}
+
+	@media (max-width: 1100px) {
+		section {
+			width: 90%;
+		}
+	}
+
+	@media (max-width: 700px) {
+		section {
+			width: 100%;
+		}
+		.cta {
+			width: 100%;
+		}
+	}
 </style>
