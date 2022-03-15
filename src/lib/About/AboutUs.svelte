@@ -33,20 +33,20 @@
 	</div>
 </section>
 
-<style>
+<style lang="scss">
 	.wrap {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		padding: 10rem;
-	}
+		padding: 3rem 30rem;
 
-	.image {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		align-items: center;
-		gap: 3rem;
+		.image {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			gap: 3rem;
+		}
 	}
 </style>

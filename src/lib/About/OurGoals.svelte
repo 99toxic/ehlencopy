@@ -40,36 +40,37 @@
 	</div>
 </section>
 
-<style>
+<style lang="scss">
 	section {
-		background: url('ehlen-analytics-heading.jpg') no-repeat center center;
-		background-size: cover;
+		background: url('/static/images/collage_for_dark.png') no-repeat bottom center;
+		background-color: var(--color-black);
+		background-size: fit;
 		padding: 2rem 20rem 20rem;
 		position: relative;
 		z-index: 1;
 		color: var(--color-white);
-	}
 
-	.wrap {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		align-items: center;
-	}
+		.wrap {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
 
-	.col {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		padding: 0 5rem;
-		text-align: center;
-	}
+			.col {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding: 0 5rem;
+				text-align: center;
 
-	.col i {
-		font-size: 5rem;
-		color: var(--color-primary);
-		margin-bottom: 2rem;
-		background: var(--color-transparent-black);
-		padding: 3rem;
+				i {
+					font-size: 5rem;
+					color: var(--color-primary);
+					margin-bottom: 2rem;
+					background: var(--color-transparent-black);
+					padding: 3rem;
+				}
+			}
+		}
 	}
 </style>
